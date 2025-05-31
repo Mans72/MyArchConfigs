@@ -21,9 +21,9 @@ mainbox {
 
 entry {
   expand: true;
-  placeholder: " 🎞️ Search / Choose Wallpaper";
-  horizontal-align: 0.5;
-  horizontal-align: 0.5;
+  placeholder: "Choose Wallpaper";
+  horizontal-align: 0.01;
+  horizontal-align: 0.01;
 }
 
 /* ---- Listview ---- */
@@ -50,9 +50,7 @@ element {
   margin: 0px;
 }
 
-element selected.normal {
-  background-color: transparent;
-}
+
 
 element-icon {
     text-color:                  inherit;

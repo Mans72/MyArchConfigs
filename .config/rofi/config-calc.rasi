@@ -4,22 +4,19 @@
 
 @import "~/.config/rofi/config.rasi" 
 
-/* ---- Mainbox ---- */
-mainbox {
-  children: [ "entry", "message" ];
-  height: inherit;
+/* ---- Entry ---- */
+entry {
+  width: 27%;
+  placeholder: "🧮 Calculate";
 }
 
 /* ---- Window ---- */
 window {
-  width: 30%;
-  height: inherit;
+    width:	30%;
 }
 
-/* ---- Entry ---- */
-entry {
-  expand: true;
-  placeholder: " 🧮 Calculate";
+/* ---- Message ---- */
+textbox {
+    background-color:            @selected;
+    text-color:                  @background;
 }
-
-listview {enable: false;}
