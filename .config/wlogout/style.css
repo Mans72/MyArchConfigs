@@ -1,13 +1,12 @@
-/* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
-/* wallust-wlogout */
+/* Importing pywal colors */
 
-/* Importing wallust colors */
 @import '../../.config/waybar/wallust/colors-waybar.css';
 
 window {
-    font-size: 24pt;
-    color: @foreground; /* text */
-    background-color: rgba(30, 30, 46, 0.8);
+    font-family: Fira Code Medium;
+    font-size: 16pt;
+    color: #cdd6f4; /* text */
+    background-color: rgba(30, 30, 46, 0.6);
 }
 
 button {
@@ -15,27 +14,21 @@ button {
     background-position: center;
     background-size: 20%;
     background-color: rgba(200, 220, 255, 0);
-    animation: gradient_f 10s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    border-radius: 80px;
-	border:0px;
-	outline-style: none;
+    border-radius: 50px; /* Increased border radius for a more rounded look */
 }
 
 button:focus {
-    background-size: 50%;
+    background-size: 25%;
 	border: 0px;
-	outline-style: none;
 
 }
 
 button:hover {
-    background-color: transparent; 
-    color: @color13;
-    background-size: 50%;
-    margin: 30px;
-    border-radius: 80px;
-    outline-style: none;
+    background-color: rgb(145, 215, 227); 
+    color: #1e1e2e;
+    background-size: 70%;
+    margin: 5px;
+    border-radius: 50px; 
 	
 }
 
